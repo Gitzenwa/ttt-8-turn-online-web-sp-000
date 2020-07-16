@@ -46,7 +46,10 @@ def turn(board)
   #make the move for input
     move(board, input, character)
   #else
+  else
     #ask for input again until you get a valid input
+  turn(board)
+
   #end
 
 end
