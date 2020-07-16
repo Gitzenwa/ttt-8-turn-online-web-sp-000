@@ -9,7 +9,7 @@ else
   ask for input again until you get a valid input
 end
 =end
-def turn
+def turn(board)
 end
 
 
