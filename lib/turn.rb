@@ -1,29 +1,3 @@
-=begin
-ask for input
-get input
-convert input to index
-if index is valid
-  make the move for index
-  show the board
-else
-  ask for input again until you get a valid input
-end
-=end
-def turn(board)
-  puts "Please enter 1-9:"
-
-#get input
-input = gets.strip
-#convert input to index
-#if index is valid
-#make the move for input
-#else
-  #ask for input again until you get a valid input
-#end
-
-end
-
-
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -58,4 +32,19 @@ end
 
 def move (board, input, character = "X")
   board[input] = character
+end
+
+def turn(board)
+  puts "Please enter 1-9:"
+
+  #get input
+  input = gets.strip
+  #convert input to index
+  input_to_index(input)
+  #if index is valid
+  #make the move for input
+  #else
+    #ask for input again until you get a valid input
+  #end
+
 end
