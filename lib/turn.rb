@@ -42,7 +42,7 @@ def turn(board)
   #convert input to index
   input_to_index(input)
   #if index is valid
-  until input == (1..9)
+  if input == (1..9)
   #make the move for input
     move(board, input, character)
   #else
