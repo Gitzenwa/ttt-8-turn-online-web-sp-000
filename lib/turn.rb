@@ -41,4 +41,10 @@ def position_taken? (board, index)
   end
 end
 
-def move(board, index)
+def input_to_index(input)
+  input.to_i - 1
+end
+
+def move (board, input, character = "X")
+  board[input] = character
+end
