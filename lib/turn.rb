@@ -48,7 +48,8 @@ def turn(board)
   #else
   else
     #ask for input again until you get a valid input
-  turn(board)
+    turn(board)
+  end
 
   #end
 
